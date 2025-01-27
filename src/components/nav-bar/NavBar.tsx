@@ -1,14 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 import PrimaryButton from "../buttons/primary-button/PrimaryButton";
 import Switch from "../switch/Switch";
 import { HiOutlineCode } from "react-icons/hi";
 import { CgMenuRight } from "react-icons/cg";
-import {
-  AiOutlineGithub,
-  AiOutlineLinkedin,
-  AiOutlineInstagram,
-} from "react-icons/ai";
 
 const NavBar = () => {
   const [theme, setTheme] = useState<string | null>(null);

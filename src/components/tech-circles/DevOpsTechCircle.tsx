@@ -1,4 +1,4 @@
-import React from "react";
+ 
 
 import mysqlLogo from "./../../images/mysql.png";
 import gitLogo from "./../../images/git.png";

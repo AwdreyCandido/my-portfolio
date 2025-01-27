@@ -1,7 +1,3 @@
-import React from "react";
-import PrimaryButton from "../buttons/primary-button/PrimaryButton";
-
-
 import {
   AiOutlineGithub,
   AiOutlineLinkedin,

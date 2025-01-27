@@ -1,4 +1,4 @@
-import React from "react";
+ 
 
 import styledComponentsLogo from "./../../images/styled-components.png";
 import sassLogo from "./../../images/sass.png";

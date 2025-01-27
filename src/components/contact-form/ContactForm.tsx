@@ -1,4 +1,3 @@
-import React from "react";
 import { HiOutlineArrowUpRight } from "react-icons/hi2";
 
 const ContactForm = () => {

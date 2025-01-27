@@ -1,10 +1,4 @@
-import React from "react";
 import { experiences } from "../../data/experiences";
-
-import eap from "./../../images/logos/logo-eap.webp";
-import mec from "./../../images/logos/logo-mc.png";
-// import gpmRegisterScreen from "./../../images/gpm2.png";
-// import mangrover from "./../../images/mangrover-site.png";
 
 const MainSection = () => {
   function calculateWorktime(start: string, end: string | null): string {

@@ -1,12 +1,9 @@
-import React from "react";
 import {
   AiOutlineGithub,
   AiOutlineLinkedin,
   AiOutlineInstagram,
 } from "react-icons/ai";
 import { HiOutlineCode } from "react-icons/hi";
-import ContactForm from "../contact-form/ContactForm";
-import MainContact from "../main-contact/MainContact";
 
 const MainFooter = () => {
   const scrollToTop = () => {

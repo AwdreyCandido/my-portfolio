@@ -1,4 +1,4 @@
-import React from "react";
+ 
 
 import reactLogo from "./../../images/react.png";
 import reduxLogo from "./../../images/redux.png";

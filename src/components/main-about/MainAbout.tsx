@@ -1,4 +1,3 @@
-import React from "react";
 import cats from "./../../images/cats.jpeg"
 
 const MainAbout = () => {

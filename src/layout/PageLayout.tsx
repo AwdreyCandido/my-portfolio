@@ -1,4 +1,3 @@
-import React from "react";
 import MainContact from "../components/main-contact/MainContact";
 import MainFooter from "../components/main-footer/MainFooter";
 import NavBar from "../components/nav-bar/NavBar";
