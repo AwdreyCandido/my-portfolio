@@ -6,9 +6,10 @@ import PageLayout from "../../layout/PageLayout";
 const MainPage = () => {
   return (
     <PageLayout>
-      <MainHeader />
+      <div></div>
+      {/* <MainHeader />
       <MainSection />
-      <MainAbout />
+      <MainAbout /> */}
     </PageLayout>
   );
 };

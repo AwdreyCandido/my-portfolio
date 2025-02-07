@@ -20,3 +20,22 @@ html {
 body {
     font-size: 1.4rem;
 }
+
+
+/*  */
+/* .icon-box {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    font-size: 18px;
+}
+
+.icon-box::before {
+    content: "";
+    position: absolute;
+    inset: 1px;
+    background: hsl(240, 2%, 13%);
+    border-radius: inherit;
+    z-index: -1;
+    transform: translate(1px, 1px);
+} */
