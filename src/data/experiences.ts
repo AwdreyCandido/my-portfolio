@@ -36,8 +36,11 @@ export const experiences = [
     company: "Meu Cuidador",
     title: "Frontend Developer & Web Designer",
     description: `
-      As a Front-End Developer at Meu Cuidador, I led the planning, prototyping and reconstruction of the 
-      institutional website and web platform, using advanced web development technologies.
+      At Meu Cuidador, I was responsible for:
+
+      • Planning, prototyping, and rebuilding the institutional website and web platform
+      • Developing responsive and user-friendly interfaces using advanced web technologies
+      • Implementing cross-browser compatibility and accessibility best practices
     `,
     startedAt: "2023-08-01",
     endedAt: "2024-09-01",
@@ -51,7 +54,7 @@ export const experiences = [
     description: `
       While working in EAP I:
 
-      • Implemented UIs with React and Typescript, adhering to desing specifications and functional requirements.
+      • Implemented UIs with React and Typescript, adhering to desing specifications and functional requirements. \n
       • Contributed to the development and maintenance of RESTful APIs using NestJS and Typescript, including integration of new features to enhance the web app capabilities.
       • Refactored the old application UI into a new modern and responsive UI.
     `,
@@ -63,11 +66,13 @@ export const experiences = [
   {
     id: 4,
     company: "Tiger Tech & Golden Hippo",
-    title: "Frontend Developer III",
+    title: "Frontend Developer IV",
     description: `
-      I was responsible for implementing new features according to the clients specifications and \n
-      maintaining the existing codebase throughout various repositories in collaboration with the \n
-      international team in Malaysia and India.\n
+      At Tiger Tech & GHT, I was responsible for:
+
+      • Implementing new features and solving issues according to client specifications across multiple projects
+      • Maintaining and optimizing the existing codebase throughout various repositories
+      • Collaborating with an international team based in Malaysia and India to ensure efficient development workflows
     `,
     startedAt: "2024-09-01",
     endedAt: null,

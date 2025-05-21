@@ -31,7 +31,7 @@ const MainFooter = () => {
           </a>
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/awdrey-candido-67b381221/"
+            href="https://www.linkedin.com/in/awdrey-candido/"
           >
             <div className="text-[2.5rem] cursor-pointer flex items-center justify-center dark:text-white">
               <AiOutlineLinkedin />
