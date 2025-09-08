@@ -8,6 +8,7 @@ module.exports = {
         rubik: ["Rubik", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         sora: ["Sora", "sans-serif"],
+        figtree: ["Figtree", "sans-serif"],
       },
       fontSize: {
         base: "1.6rem",
