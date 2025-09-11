@@ -8,6 +8,7 @@ export const experiences = [
     id: 1,
     company: "Mangrover LTDA",
     title: "Front-End Developer",
+    background: "#ffffff",
     description: `
       • Designed and developed the user interface for the GPM (Gestor Político Mangrover) system
       • Ensured seamless integration with Back-End services
@@ -31,6 +32,7 @@ export const experiences = [
     id: 2,
     company: "Meu Cuidador",
     title: "Front-End Developer & Web Designer",
+    background: "#ffffff",
     description: `
       • Planned, prototyped, and redesigned the institutional website and platform
       • Built responsive and user-friendly interfaces
@@ -45,6 +47,7 @@ export const experiences = [
     id: 3,
     company: "Engenharia de Alta Performance",
     title: "Full-Stack Developer",
+    background: "#ffffff",
     description: `
       • Implemented modern UIs with React and TypeScript
       • Contributed to RESTful APIs with NestJS, adding new features and improvements
@@ -59,6 +62,7 @@ export const experiences = [
     id: 4,
     company: "Tiger Tech & Golden Hippo",
     title: "Front-End Developer IV",
+    background: null,
     description: `
       • Developed new features and fixed critical issues across multiple projects
       • Maintained and optimized multi-repository codebases
@@ -66,7 +70,14 @@ export const experiences = [
     `,
     startedAt: "2024-09-01",
     endedAt: null,
-    stack: ["React.js", "Javascript", "Typescript", "Node.js", "PHP", "Laravel"],
+    stack: [
+      "React.js",
+      "Javascript",
+      "Typescript",
+      "Node.js",
+      "PHP",
+      "Laravel",
+    ],
     logo: ght,
   },
 ];

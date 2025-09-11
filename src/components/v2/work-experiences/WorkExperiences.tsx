@@ -14,7 +14,9 @@ const WorkExperiences = () => {
             >
               <div className="flex flex-col items-center flex-1 h-full py-6 px-3">
                 <div
-                  className={`flex items-center justify-center overflow-hidden h-[7rem] w-[7rem] rounded-2xl mb-3 bg-[#202224] ${
+                  className={`flex items-center justify-center overflow-hidden h-[7rem] w-[7rem] rounded-2xl mb-3 ${
+                    experience.background ? "bg-neutral-200" : "bg-[#202224]"
+                  }  ${
                     experience.logo
                       ? ""
                       : "border-2 border-[#3f4048] border-dashed"

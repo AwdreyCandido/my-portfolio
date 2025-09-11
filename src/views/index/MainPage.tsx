@@ -3,6 +3,7 @@ import ContactLinks from "../../components/v2/contact-links/ContactLinks";
 import ServiceCards from "../../components/v2/service-cards/ServiceCards";
 import WorkExperiences from "../../components/v2/work-experiences/WorkExperiences";
 import Layout from "../../layout/Layout";
+import Skills from "../../components/v2/skills/Skills";
 
 const MainPage = () => {
   const roleRef = useRef<HTMLParagraphElement | null>(null);
@@ -36,7 +37,10 @@ const MainPage = () => {
   return (
     <Layout>
       <main className="flex flex-col items-center my-[10rem] ">
-        <section className="flex flex-col min-w-[70rem] max-w-[70rem] gap-6">
+        <section
+          id="about"
+          className="flex flex-col min-w-[70rem] max-w-[70rem] gap-6"
+        >
           <div className=" font-figtree font-semibold text-neutral-200">
             <h1 className="text-[5rem] ">Hey, I'm Awdrey</h1>
             <h1 className="flex text-[5rem] ">
@@ -64,11 +68,24 @@ const MainPage = () => {
           <ServiceCards />
         </section>
         <div className="min-w-[70rem] max-w-[70rem] bg-[#34363a] h-[1px] rounded-full my-20 mb-32"></div>
-        <section className="flex flex-col min-w-[70rem] max-w-[70rem] gap-6">
+        <section
+          id="experiences"
+          className="flex flex-col min-w-[70rem] max-w-[70rem] gap-6"
+        >
           <h2 className="text-tertiary-h font-semibold text-neutral-200 mb-10">
             Work Experience
           </h2>
           <WorkExperiences />
+        </section>
+        <div className="min-w-[70rem] max-w-[70rem] bg-[#34363a] h-[1px] rounded-full my-20 mb-32"></div>
+        <section
+          id="skills"
+          className="flex flex-col min-w-[70rem] max-w-[70rem] gap-6"
+        >
+          <h2 className="text-tertiary-h font-semibold text-neutral-200 mb-10">
+            Skills & Technologies
+          </h2>
+          <Skills />
         </section>
       </main>
     </Layout>

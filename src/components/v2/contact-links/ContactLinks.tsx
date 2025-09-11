@@ -14,7 +14,7 @@ const ContactLinks = () => {
     {
       icon: <AiOutlineLinkedin size={28} />,
       label: "LinkedIn",
-      href: "https://www.linkedin.com/in/awdrey-candido-67b381221/",
+      href: "https://www.linkedin.com/in/awdrey-candido/",
     },
     {
       icon: <AiOutlineInstagram size={28} />,

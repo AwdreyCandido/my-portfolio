@@ -1,23 +1,26 @@
 import { FiHome, FiUser, FiCode, FiLayers, FiMail } from "react-icons/fi";
 import { HiOutlineCode } from "react-icons/hi";
+import { HiOutlineCommandLine } from "react-icons/hi2";
 import { LuLayoutDashboard } from "react-icons/lu";
 
 const Navigation = () => {
   const navItems = [
-    { icon: <LuLayoutDashboard size={22} />, label: "Home", href: "#home" },
-    { icon: <FiUser size={22} />, label: "About", href: "#about" },
-    { icon: <HiOutlineCode size={22} />, label: "Projects", href: "#projects" },
-    { icon: <FiLayers size={22} />, label: "Skills", href: "#skills" },
-    { icon: <FiMail size={22} />, label: "Contact", href: "#contact" },
+    { icon: <FiUser size={22} />, label: "About", href: "about" },
+    {
+      icon: <HiOutlineCommandLine size={24} />,
+      label: "Experiences",
+      href: "experiences",
+    },
+    { icon: <HiOutlineCode size={24} />, label: "Skills", href: "skills" },
+    { icon: <FiMail size={22} />, label: "Contact", href: "contact" },
   ];
-
   return (
     <nav className="absolute -translate-y-[50%] p-2 rounded-full bg-[#34363a] left-10 top-[50%] flex flex-col justify-between items-center text-neutral-200 border-2 border-[#3f4048] shadow-lg">
       <div className="flex flex-col gap-4">
         {navItems.map(({ icon, label, href }) => (
           <a
             key={label}
-            href={href}
+            href={`#${href}`}
             className="group relative flex items-center justify-center h-[5rem] w-[5rem] hover:bg-[#202224] rounded-full transition-all duration-300"
           >
             {icon}
