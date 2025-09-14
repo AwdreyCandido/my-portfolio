@@ -15,8 +15,8 @@ const Navigation = () => {
     { icon: <FiMail size={22} />, label: "Contact", href: "contact" },
   ];
   return (
-    <nav className="absolute -translate-y-[50%] p-2 rounded-full bg-[#34363a] left-10 top-[50%] flex flex-col justify-between items-center text-neutral-200 border-2 border-[#3f4048] shadow-lg">
-      <div className="flex flex-col gap-4">
+    <nav className="absolute h-min p-2 rounded-full bg-[#34363a] -translate-x-[50%] md:-translate-x-0 left-[50%] md:left-10 bottom-0 -translate-y-[50%] md:top-[50%] flex flex-col justify-between items-center text-neutral-200 border-2 border-[#3f4048] shadow-lg z-50">
+      <div className="flex md:flex-col gap-4">
         {navItems.map(({ icon, label, href }) => (
           <a
             key={label}
@@ -24,7 +24,7 @@ const Navigation = () => {
             className="group relative flex items-center justify-center h-[5rem] w-[5rem] hover:bg-[#202224] rounded-full transition-all duration-300"
           >
             {icon}
-            <span className="absolute left-[7rem] scale-0 rounded-full text-gray-700 bg-neutral-200 px-6 py-3 text-[1.4rem] font-medium leading-none group-hover:scale-100 transition-transform">
+            <span className="hidden md:flex absolute left-[7rem] scale-0 rounded-full text-gray-700 bg-neutral-200 px-6 py-3 text-[1.4rem] font-medium leading-none group-hover:scale-100 transition-transform">
               {label}
             </span>
           </a>

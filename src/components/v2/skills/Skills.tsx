@@ -48,7 +48,7 @@ const Skills = () => {
     <div className="flex flex-col gap-14">
       {skillGroups.map((group) => (
         <div key={group.name} className="group relative">
-          <div className="flex flex-col items-center justify-center rounded-2xl border-2 border-[#3f4048] bg-[#2a2c30] p-4 shadow-lg hover:bg-[#202224] hover:shadow-lg transition-all h-[8rem]">
+          <div className="flex flex-col items-center justify-center rounded-2xl border-2 border-[#3f4048] bg-[#34363A] p-4 shadow-lg hover:bg-[#202224] hover:shadow-lg transition-all min-h-[7rem]">
             <div className="flex flex-wrap items-center justify-center gap-3 h-full w-full">
               {group.icons.map((icon) => (
                 <img

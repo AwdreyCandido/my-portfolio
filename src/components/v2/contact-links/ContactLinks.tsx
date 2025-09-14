@@ -26,7 +26,7 @@ const ContactLinks = () => {
   return (
     <div className="flex justify-between sm:justify-normal gap-6 text-base">
       <a href="/#contact" className="w-full sm:w-fit">
-        <button className="px-8 sm:px-12 w-full sm:w-fit py-4 text-[1.4rem] sm:text-base bg-[#34363a] border-2 border-[#3f4048] text-neutral-200 rounded-full hover:bg-[#202224] transition-all duration-300 shadow-lg">
+        <button className="px-8 sm:px-12 w-full py-4 text-[1.4rem] sm:text-base bg-[#34363a] border-2 border-[#3f4048] text-neutral-200 rounded-full hover:bg-[#202224] transition-all duration-300 shadow-lg">
           Contact Me!
         </button>
       </a>
@@ -37,7 +37,7 @@ const ContactLinks = () => {
           href={href}
           target="_blank"
           rel="noopener noreferrer"
-          className="group relative flex items-center justify-center h-[4.5rem] w-[4.5rem] text-[2rem] cursor-pointer rounded-full border-2 border-[#3f4048] text-neutral-200 hover:bg-[#202224] transition-all duration-300 shadow-md"
+          className="group relative flex items-center justify-center min-h-[4.5rem] min-w-[4.7rem] text-[2rem] cursor-pointer rounded-full border-2 border-[#3f4048] text-neutral-200 hover:bg-[#202224] transition-all duration-300 shadow-md"
         >
           {icon}
 
