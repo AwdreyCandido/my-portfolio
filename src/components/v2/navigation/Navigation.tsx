@@ -1,7 +1,6 @@
-import { FiHome, FiUser, FiCode, FiLayers, FiMail } from "react-icons/fi";
+import { FiUser, FiMail } from "react-icons/fi";
 import { HiOutlineCode } from "react-icons/hi";
 import { HiOutlineCommandLine } from "react-icons/hi2";
-import { LuLayoutDashboard } from "react-icons/lu";
 
 const Navigation = () => {
   const navItems = [
